@@ -21,8 +21,8 @@ importers:
         specifier: ^0.10.2
         version: 0.10.2(nanostores@0.11.3)
       '@shopify/hydrogen-react':
-        specifier: ^2024.10.0
-        version: 2024.10.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^2024.10.1
+        version: 2024.10.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
         version: 0.4.2(tailwindcss@3.4.16)
@@ -36,8 +36,8 @@ importers:
         specifier: ^4.2.19
         version: 4.2.19
       zod:
-        specifier: ^3.24.0
-        version: 3.24.0
+        specifier: ^3.24.1
+        version: 3.24.1
     devDependencies:
       prettier:
         specifier: ^3.4.2
@@ -612,8 +612,8 @@ packages:
   '@shikijs/vscode-textmate@9.3.0':
     resolution: {integrity: sha512-jn7/7ky30idSkd/O5yDBfAnVt+JJpepofP/POZ1iMOxK59cOfqIgg/Dj0eFsjOTMw+4ycJN0uhZH/Eb0bs/EUA==}
 
-  '@shopify/hydrogen-react@2024.10.0':
-    resolution: {integrity: sha512-iU1nLChpIqaIP/ldmkj5Ra1BkFoSC3wP8ARYAZekWjnPowTMKjf/YxNHMrt1i2zE+h6WxvYKMM3E/yB7/KJFrw==}
+  '@shopify/hydrogen-react@2024.10.1':
+    resolution: {integrity: sha512-7tNdany/ueQqqeOqJ/gewoNg6mM6J5KxcSGeYDBQWHOjQdVpWNW+T2SzaNtXobtW/TB6gQ/6S8mSstQSyr4kyA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0.0
@@ -1162,8 +1162,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  graphql@16.9.0:
-    resolution: {integrity: sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw==}
+  graphql@16.10.0:
+    resolution: {integrity: sha512-AjqGKbDGUFRKIRCP9tCKiIGHyriz2oHEbPIbEtcSLSs4YjReZOIPQQWek4+6hjw62H9QShXHyaGivGiYVLeYFQ==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
 
   gray-matter@4.0.3:
@@ -2146,12 +2146,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  type-fest@4.26.1:
-    resolution: {integrity: sha512-yOGpmOAL7CkKe/91I5O3gPICmJNLJ1G4zFYVAsRHg7M64biSnPtRj0WNQt++bRkjYOqjWXrhnUw1utzmVErAdg==}
-    engines: {node: '>=16'}
-
-  type-fest@4.29.1:
-    resolution: {integrity: sha512-Y1zUveI92UYM/vo1EFlQSsNf74+hfKH+7saZJslF0Fw92FRaiTAnHPIvo9d7SLxXt/gAYqA4RXyDTioMQCCp0A==}
+  type-fest@4.30.1:
+    resolution: {integrity: sha512-ojFL7eDMX2NF0xMbDwPZJ8sb7ckqtlAi1GsmgsFXvErT9kFTk1r0DuQKvrCh73M6D4nngeHJmvogF9OluXs7Hw==}
     engines: {node: '>=16'}
 
   typescript@5.7.2:
@@ -2195,19 +2191,19 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
-  use-isomorphic-layout-effect@1.1.2:
-    resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
+  use-isomorphic-layout-effect@1.2.0:
+    resolution: {integrity: sha512-q6ayo8DWoPZT0VdG4u3D3uxcgONP3Mevx2i2b0434cwWBoL+aelL1DzkXI6w3PhTZzUeR2kaVlZn70iCiseP6w==}
     peerDependencies:
       '@types/react': '*'
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     peerDependenciesMeta:
       '@types/react':
         optional: true
 
-  use-sync-external-store@1.2.2:
-    resolution: {integrity: sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==}
+  use-sync-external-store@1.4.0:
+    resolution: {integrity: sha512-9WXSPC5fMv61vaupRkCKCxsPxBocVnwakBEkMIHHpkTTg6icbJtg6jzgtLDm4bl3cSHAca52rYWih0k4K3PfHw==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
@@ -2352,8 +2348,8 @@ packages:
       typescript: ^4.9.4 || ^5.0.2
       zod: ^3
 
-  zod@3.24.0:
-    resolution: {integrity: sha512-Hz+wiY8yD0VLA2k/+nsg2Abez674dDGTai33SwNvMPuf9uIrBC9eFgIMQxBBbHFxVXi8W+5nX9DcAh9YNSQm/w==}
+  zod@3.24.1:
+    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -2885,15 +2881,15 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.3.0': {}
 
-  '@shopify/hydrogen-react@2024.10.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@shopify/hydrogen-react@2024.10.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@google/model-viewer': 1.12.1
       '@xstate/fsm': 2.0.0
       '@xstate/react': 3.2.1(@xstate/fsm@2.0.0)(react@18.3.1)
-      graphql: 16.9.0
+      graphql: 16.10.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      type-fest: 4.26.1
+      type-fest: 4.30.1
       worktop: 0.7.3
     transitivePeerDependencies:
       - '@types/react'
@@ -3008,8 +3004,8 @@ snapshots:
   '@xstate/react@3.2.1(@xstate/fsm@2.0.0)(react@18.3.1)':
     dependencies:
       react: 18.3.1
-      use-isomorphic-layout-effect: 1.1.2(react@18.3.1)
-      use-sync-external-store: 1.2.2(react@18.3.1)
+      use-isomorphic-layout-effect: 1.2.0(react@18.3.1)
+      use-sync-external-store: 1.4.0(react@18.3.1)
     optionalDependencies:
       '@xstate/fsm': 2.0.0
     transitivePeerDependencies:
@@ -3136,9 +3132,9 @@ snapshots:
       which-pm: 3.0.0
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
-      zod: 3.24.0
-      zod-to-json-schema: 3.23.5(zod@3.24.0)
-      zod-to-ts: 1.2.0(typescript@5.7.2)(zod@3.24.0)
+      zod: 3.24.1
+      zod-to-json-schema: 3.23.5(zod@3.24.1)
+      zod-to-ts: 1.2.0(typescript@5.7.2)(zod@3.24.1)
     optionalDependencies:
       sharp: 0.33.5
     transitivePeerDependencies:
@@ -3187,7 +3183,7 @@ snapshots:
       chalk: 5.3.0
       cli-boxes: 3.0.0
       string-width: 7.2.0
-      type-fest: 4.29.1
+      type-fest: 4.30.1
       widest-line: 5.0.0
       wrap-ansi: 9.0.0
 
@@ -3504,7 +3500,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graphql@16.9.0: {}
+  graphql@16.10.0: {}
 
   gray-matter@4.0.3:
     dependencies:
@@ -4754,9 +4750,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  type-fest@4.26.1: {}
-
-  type-fest@4.29.1: {}
+  type-fest@4.30.1: {}
 
   typescript@5.7.2: {}
 
@@ -4818,11 +4812,11 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  use-isomorphic-layout-effect@1.1.2(react@18.3.1):
+  use-isomorphic-layout-effect@1.2.0(react@18.3.1):
     dependencies:
       react: 18.3.1
 
-  use-sync-external-store@1.2.2(react@18.3.1):
+  use-sync-external-store@1.4.0(react@18.3.1):
     dependencies:
       react: 18.3.1
 
@@ -4924,15 +4918,15 @@ snapshots:
 
   yocto-queue@1.1.1: {}
 
-  zod-to-json-schema@3.23.5(zod@3.24.0):
+  zod-to-json-schema@3.23.5(zod@3.24.1):
     dependencies:
-      zod: 3.24.0
+      zod: 3.24.1
 
-  zod-to-ts@1.2.0(typescript@5.7.2)(zod@3.24.0):
+  zod-to-ts@1.2.0(typescript@5.7.2)(zod@3.24.1):
     dependencies:
       typescript: 5.7.2
-      zod: 3.24.0
+      zod: 3.24.1
 
-  zod@3.24.0: {}
+  zod@3.24.1: {}
 
   zwitch@2.0.4: {}
